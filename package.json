@@ -1,0 +1,27 @@
+{
+  "name": "dogestarter-vesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "none",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "vesting",
+    "smart",
+    "contract"
+  ],
+  "author": "dogestarter",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "dotenv": "^16.0.2",
+    "truffle-plugin-verify": "^0.5.28"
+  }
+}
